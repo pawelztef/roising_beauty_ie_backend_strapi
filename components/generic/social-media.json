@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_generic_social_medias",
+  "info": {
+    "name": "social_media",
+    "icon": "users"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "twitter",
+        "facebook",
+        "instagram",
+        "pinterest"
+      ],
+      "required": true
+    }
+  }
+}

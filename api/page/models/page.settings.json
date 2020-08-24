@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "name": "page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "unique": true
+    },
+    "slug": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "components": {
+      "type": "dynamiczone",
+      "components": [
+        "page.simple-banner",
+        "page.services-banner",
+        "page.testimony",
+        "page.slider",
+        "page.welcome",
+        "page.gallery-banner",
+        "page.gallery",
+        "page.hero-slider",
+        "page.our-story",
+        "general.maps",
+        "page.services-list",
+        "page.appointment-form",
+        "page.newsletter-form",
+        "page.hero",
+        "page.contact-info",
+        "general.contact-details",
+        "page.contact-form",
+        "generic.text"
+      ]
+    }
+  }
+}

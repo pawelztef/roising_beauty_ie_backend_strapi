@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "navbars",
+  "info": {
+    "name": "navbar"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "menu": {
+      "model": "menu"
+    },
+    "call_to_action": {
+      "type": "component",
+      "repeatable": false,
+      "component": "generic.call-to-action"
+    },
+    "contact_details": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.contact-details"
+    },
+    "social_media": {
+      "type": "component",
+      "repeatable": true,
+      "component": "generic.social-media"
+    },
+    "logo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "generic.logo"
+    }
+  }
+}

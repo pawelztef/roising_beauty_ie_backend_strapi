@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_page_newsletter_forms",
+  "info": {
+    "name": "newsletter_form",
+    "icon": "envelope-square"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "button_text": {
+      "type": "string",
+      "required": true
+    },
+    "agreement_phrase": {
+      "type": "string",
+      "required": true
+    },
+    "policy_link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "generic.call-to-action",
+      "required": true
+    }
+  }
+}
